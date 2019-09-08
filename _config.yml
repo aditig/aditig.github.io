@@ -8,7 +8,7 @@ logo:               'assets/img/aditi.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-# url:                https://aditig.github.io
+url:                https://aditig.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -64,7 +64,7 @@ instagram:          _earth_crawler
 #goodreads:          15163026-aditi
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
