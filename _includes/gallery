@@ -1,0 +1,23 @@
+{% assign images = include.images %}
+{% assign caption = include.caption %}
+{% assign cols = include.cols %}
+
+{% case cols %}
+    {% when 1 %}
+        {% assign class = "" %}
+    {% when 2 %}
+        {% assign class = "half" %}
+    {% when 3 %}
+        {% assign class = "third" %}
+    {% else %}
+        {% assign class = "" %}
+{% endcase %}
+
+<figure {% if class != "" %}class="{{ class }}"{% endif %}>
+    <div class="popup-gallery">
+        {% for image in images %}
+        <a href="{{ image.src }}" title="{{ image.title }}"><img src="{{ image.src }}" alt=""></a>
+        {% endfor %}
+    </div>
+    <figcaption>{{ caption }}</figcaption>
+</figure>
