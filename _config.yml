@@ -69,10 +69,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-font-awesome-sass
-
-font-awesome:
-    assets: true
 
 jekyll-mentions:
     base_url: https://github.com
