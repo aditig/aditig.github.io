@@ -9,7 +9,7 @@ comments: false
 
 ## CREATING A HOMEBREW TAP
 
-Sometimes, you might come across a need to create your own tap for homebrew, either to host your own tools or for formulae that you tweaked as per your needs.
+Sometimes, you might come across a need to create your own tap for [Homebrew](https://github.com/Homebrew/brew), either to host your own tools or for formulae that you tweaked as per your needs.
 I stumbled upon this path when I was trying to install a deleted formula, and there would be others in my team who would need to do the same.
 To my surprise, creating a Homebrew tap was surprisingly easy.
 
