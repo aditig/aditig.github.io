@@ -30,9 +30,9 @@ sass:
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        UA-171620612-1
   #verify:
   #ad-client:
   #ad-slot:
@@ -46,7 +46,7 @@ linkedin:           aditi2
 #xing:              username
 instagram:          _earth_crawler
 #lastfm:            username
-#tumblr:             earthcrawler
+#tumblr:            earthcrawler
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
